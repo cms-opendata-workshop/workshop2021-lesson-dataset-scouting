@@ -25,10 +25,15 @@ The main data available is from what is known as **Run 1** and spans 2010-2012. 
 periods can also be broken into **A**, **B**, **C**, and so-on, sub-periods and you may see
 that in some of the dataset names. 
 
-If you are coming from the previous module you should have selected **CMS**, **Dataset**, and **2012**. 
+> ## Make a selection!
+> If you are coming from the previous module you should have selected **CMS**, **Dataset**, and **2012**. 
+{: .prereq}
 
 > ## CERN Open Data Portal - CMS datasets
 > Selecting CMS, Dataset, and 2012.
+>
+> *Your view might look slightly different than this screenshot as the available datasets and tools are regularly updated.*
+>
 > ![](../assets/img/portal_screenshot_search_bar_01.png)
 {: .callout}
 
@@ -38,8 +43,10 @@ When **Dataset** is selected, there are 3 subcategories:
 and education or the [ispy](https://ispy.web.cern.ch/1.5.0/) event display. 
 * **Simulated** refers to Monte Carlo datasets. 
 
-Let's first unselect **Derived** and **Simulation** so that only the **Collision** option is set
-under **Dataset**. 
+
+> ## Make a selection!
+> Let's now unselect **Derived** and **Simulation** so that only the **Collision** option is set under **Dataset**. 
+{: .prereq}
 
 ### Collision data
 
@@ -61,8 +68,9 @@ There are three (3) parts to the names, separated by `/'.
 **Trigger**
 
 *DoubleElectron* or *SingleMu* is the name of the trigger. 
-This is the *trigger* that selected out this subset of data. You will have
-a dedicated lesson on working with and understanding these triggers but for now, just know that they
+This is the *trigger* that selected out this subset of data. Ideally, you have 
+completed the [pre-exercise on triggers in CMS](https://cms-opendata-workshop.github.io/workshop2021-lesson-introtrigger/)
+but for now, remind yourself that they
 select out some subset of the collisions based on certain criteria in the hardware
 or software. 
 
@@ -73,8 +81,9 @@ Some of them are quite difficult to intuit what they mean. Others should be roug
 * **MinimumBias** events are taken without any trigger or selection criteria. 
 
 For more information on these triggers, you can either reach out to the 
-organizers through [Mattermost](https://mattermost.web.cern.ch/cmsopeyyndatatheo/channels/town-square)
-or wait until the dedicated trigger lesson. 
+organizers through [Mattermost](https://mattermost.web.cern.ch/cmsodws2021/channels/town-square)
+or review the 
+[pre-exercise on triggers in CMS](https://cms-opendata-workshop.github.io/workshop2021-lesson-introtrigger/).
 
 **Run period**
 
@@ -124,10 +133,13 @@ apply the trigger to the data to simulate what happens in the real data. You wil
 more about this in the upcoming trigger exercise. 
 
 For now, let's look at some of the Monte Carlo datasets that are available to you. 
-To do that, let's unselect everthing except for **CMS**, **Dataset**, **Simulated** (under **Dataset**)
-and **2012**.  We're also going to select a new button near the top of the left-hand sidebar, 
-**include on-demand datasets**. This will give us some search options related to the
-Monte Carlo samples. 
+
+> ## Make some selections! But first make some unselections!
+> Unselect everthing except for **CMS**, **Dataset**, **Simulated** (under **Dataset**) and **2012**.  
+> 
+> Next, select a new button near the top of the left-hand sidebar, **include on-demand datasets**. 
+> This will give us some search options related to the Monte Carlo samples. 
+{: .prereq}
 
 > ## CERN Open Data Portal - CMS datasets
 > Selection of the Monte Carlo dataset search options
@@ -138,7 +150,8 @@ There are a lot of Monte Carlo samples! It's up to you to determine which ones
 might contribute to your background. The names try to give you some sense of
 the primary process, subsequent decays, the beam energy 
 and specific simulation software (e.g. Pythia), but if you have questions, 
-reach out to the organizers through [Mattermost](https://mattermost.web.cern.ch/cmsopeyyndatatheo/channels/town-square).
+reach out to the organizers through 
+[Mattermost](https://mattermost.web.cern.ch/cmsodws2021/channels/town-square).
 
 As with the collision data, here are three (3) parts to the names, separated by `/'. 
 
@@ -175,8 +188,6 @@ One difference is that you will
 want to select the Monte Carlo events that pass certain triggers at the time of your analysis, while
 that selection was already done in the data by the detector hardware/software itself. 
 
-Note that in the sidebar, you can select *only* **aodsim** samples. 
-
 If you click on any of these fields, you can see more details about the samples, similar
 to the collision data. 
 
@@ -192,18 +203,13 @@ check scroll down the sidebar until you come to *Filter by category*.
 
 You may have to do a bit of poking around to find the dataset that is most appropriate for what
 you want to do, but remember, 
-you can always reach out to the organizers through [Mattermost](https://mattermost.web.cern.ch/cmsopeyyndatatheo/channels/town-square).
+you can always reach out to the organizers through 
+[Mattermost](https://mattermost.web.cern.ch/cmsodws2021/channels/town-square).
 
 
 ## Summary
 
 By now you should have a good sense of how to find your data using the Open Data Portal's search tools. 
-
-> ## Challenge!
-> Consider a search that you would like to do. See if you can identify the datasets, both collision and Monte Carlo, 
-> where you might begin. Discuss this with the other participants. 
-{: .callout}
-
 
 
 {% include links.md %}

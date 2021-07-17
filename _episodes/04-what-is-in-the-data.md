@@ -15,6 +15,38 @@ keypoints:
 This part of the lesson will be done from within either a Docker container or VM. 
 All commands will be typed inside that environment. 
 
+## Setting up your CMSSW area
+
+If you completed the lessons on [virtual machines](https://cms-opendata-workshop.github.io/workshop2021-lesson-virtualmachine/) or [Docker](https://cms-opendata-workshop.github.io/workshop2021-lesson-docker) you should already have a working CMSSW area.  
+
+- If you are using the VM:
+
+  - turn on your virtual machine and go to the right shell according to the [validation instructions](https://cms-opendata-workshop.github.io/workshop2021-lesson-virtualmachine/04-validation/index.html#run-a-simple-demo-for-testing-and-validating):
+
+    ![Choose this shell](../assets/img/rightshell.png)
+
+- If you are using Docker:
+
+  - Start the container with:
+    ~~~
+    docker start -i <theNameOfyourContainer>
+    ~~~
+    {: .language-bash}
+
+Make sure you change directories to the `CMSSW_5_3_32/src` area; for instance, in Docker:
+
+~~~
+cd /home/cmsusr/CMSSW_5_3_32/src
+~~~
+{: .language-bash}
+
+Note that we are not really "installing" CMSSW but setting up an environment for it.  CMSSW was already installed. This is why **every time** you open a new shell you will have to issue the `cmsenv` command, which is just a script that runs to set some environmental variables for your working area:
+
+~~~
+cmsenv
+~~~
+{: .language-bash}
+
 
 ## edmXXX tools 
 

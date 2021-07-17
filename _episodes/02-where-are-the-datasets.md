@@ -13,13 +13,17 @@ keypoints:
 # CERN Open Data Portal
 
 Our starting point is the landing page for [CERN Open Data Portal](http://opendata.cern.ch/).
-You should definitely take some time to explore it but for now, since we are primarily working
-with CMS data, you should find the CMS link under **Focus on** and click on it. 
+You should definitely take some time to explore it. But for now we will select the 
+CMS data. 
 
 > ## CERN Open Data Portal
-> The landing page for the open data portal.
+> The landing page for the [CERN Open Data Portal](http://opendata.cern.ch/).
 > ![](../assets/img/portal_screenshot_landing_page.png)
 {: .callout}
+
+> ## Make a selection!
+> Find the CMS link under **Focus on** and click on it. 
+{: .prereq}
 
 ## CMS-specific datasets
 
@@ -44,7 +48,11 @@ That's what we'll be working with for these exercises.
 > But that will be for a future workshop. :)
 {: .testimonial}
 
-For the next module, let's select **Dataset** and **2012**. 
+> ## Make a selection!
+> For the next module, let's select **Dataset** and **2012**.  
+{: .prereq}
+
+
 
 
 

@@ -13,13 +13,25 @@ keypoints:
 - "A careful understanding of the search options can help with finding what you need"
 ---
 
-Suppose you have a great idea that you want to test out with real data! You're going to want
-to know:
-* What year the data was taken that would work best for you?
-* What triggers were applied? (how was the data pre-selected to be saved and recorded)
-* What Monte Carlo datasets are available and appropriate for your studies?
-    * This may mean finding simulated physics processes that are background to your signal
-    * Or even just finding simulated datasets where you *know* the answer, allowing you to test your new analysis techniques
+> ## Get ahead!
+> The 3/4 of this lesson is done entirely in the browser. 
+> 
+> However, [Episode 4: What is in the data files?](https://cms-opendata-workshop.github.io/workshop2021-lesson-dataset-scouting/04-what-is-in-the-data/index.html), requires the use of a running CMSSW environment, either using Docker or the VM.
+> You may want to jump ahead to that episode to remind yourself of how to do that and get that running in the background, so that it's all ready to to go when we get there!
+>
+> But come back here right after! :)
+{: .callout}
+
+> ## You've got a great idea! What's next?
+> Suppose you have a great idea that you want to test out with real data! You're going to want
+> to know:
+> * What **year** was the data taken that would work best for you?
+> * What **triggers** were applied? (how was the data pre-selected to be saved and recorded)
+> * What **Monte Carlo datasets** are available and appropriate for your studies?
+>     * This may mean finding simulated physics processes that are **background** to your signal
+>     * This may mean finding simulated physics processes for your **signal**, if they exist
+>     * Possibly just finding simulated datasets where you *know* the answer, allowing you to test your new analysis techniques
+{: .checklist}
 
 In this lesson, we'll walk through the process of finding out what data and 
 Monte Carlo is available to you, how to find it, and how to examine what 
@@ -56,6 +68,8 @@ of DOIs to CERN products is generally handled through [Zenodo](https://zenodo.or
 > [DoubleElectron primary dataset in AOD format from Run of 2012 (/DoubleElectron/Run2012C-22Jan2013-v1/AOD)](http://opendata.cern.ch/record/6029)
 > 
 > ![](../assets/img/portal_screenshot_DOI_example.png)
+>
+> With a DOI, you can create citations to any of these records, for example using a tool like [doi2bib](https://www.doi2bib.org/bib/10.7483/OPENDATA.CMS.SINM.BV86).
 {: .challenge}
 
 ## Provenance
